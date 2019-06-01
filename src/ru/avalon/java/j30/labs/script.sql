@@ -96,14 +96,14 @@ VALUES  (1, 'master'),
         (3, 'customer');
 
 INSERT INTO userinfo(id, name, surname)
-VALUES  (1, 'Max', 'Smith'),
-        (2, 'john', 'Bin'),
-        (3, 'Alice', 'Brown');
+VALUES  (1, 'Ivan', 'Smirnov'),
+        (2, 'Oleg', 'Boriov'),
+        (3, 'Yuriy', 'Kravchuk');
 
 INSERT INTO "user"(id, email, password, info, role)
-VALUES (1, '1@mail.ru', 'qwerty1', 1, 1),
-       (2, '2@mail.ru', 'qwerty2', 2, 2),
-       (3, '3@mail.ru', 'qwerty3', 3, 3);
+VALUES (1, 'is@mail.ru', '12345', 1, 1),
+       (2, 'ob@yandex.ru', 'qwerty', 2, 2),
+       (3, 'yk@google.ru', '1qazxsw2', 3, 3);
 
 INSERT INTO "order"(id, customer, created)
 VALUES  (1, 1, CURRENT TIMESTAMP),
@@ -111,9 +111,9 @@ VALUES  (1, 1, CURRENT TIMESTAMP),
         (3, 3, CURRENT TIMESTAMP);
 
 INSERT INTO supplier(id, name, address, phone, representative)
-VALUES (1, 'Pobeda', 'Russia, Voroneg, Liziukova 15', '1234567', 'Alla'),
-       (2, 'Star', 'UK, Duvr, Main street 1', '1234567', 'Edvard'),
-       (3, 'NLP group', 'Russia, SPb, Nevsky 43', '1234567', 'Mark');
+VALUES (1, 'AvtoMoyka', 'Russia, SPb, Liziukova 15', '1234567', 'Stepan'),
+       (2, 'Shinomontaj', 'Russia, SPb, Main street 1', '1234567', 'Oleg'),
+       (3, 'STO', 'Russia, SPb, Nevsky 43', '1234567', 'Mark');
 
 INSERT INTO product(id, code, title, supplier, initial_price, retail_value)
 VALUES (1, '56', 'apple', 1, 5, 15),
