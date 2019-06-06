@@ -5,7 +5,7 @@
  * 3. Добавьте в каждую таблицу минимум три записи.
  */
 
-
+/*
 DROP TABLE "order2product";
 DROP TABLE "order";
 DROP TABLE "user";
@@ -13,6 +13,8 @@ DROP TABLE "userinfo";
 DROP TABLE "roles";
 DROP TABLE "product";
 DROP TABLE "supplier";
+*/
+
 
 CREATE TABLE "roles" (
      id integer NOT NULL UNIQUE,
